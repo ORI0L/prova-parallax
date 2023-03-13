@@ -4,7 +4,7 @@
     overflow-y: auto;
   }
   
-  .parallax-section {
+  .parallax-container {
     position: relative;
     height: 100%;
     background-position: center;
@@ -15,6 +15,30 @@
   .parallax-section:nth-of-type(odd) {
     background-attachment: fixed;
     background-image: url('img/nova\ york.jpg');
+  }
+  .menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a:hover{
+    background: #ef8324;
   }
   
   .par
